@@ -1,0 +1,36 @@
+1. streamlit==1.30.0
+Why?
+This is the framework you used to build the app.
+It handles everything in your UI: text input, buttons, sidebar, file upload, and layout.
+Functions used: st.text_area(), st.button(), st.file_uploader(), st.sidebar, st.session_state, etc.
+- Without Streamlit, your app won’t run at all.
+
+2. transformers==4.40.0
+Why?
+Comes from Hugging Face – gives you the pipeline() function.
+You used it to load the zero-shot-classification model:
+classifier = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")
+It handles AI predictions (like labeling text as fake or real).
+- Without this, your AI classifier won’t work.
+
+3. torch==2.2.0
+Why?
+PyTorch is the backend engine used by many Hugging Face models.
+When you load models like facebook/bart-large-mnli, it uses PyTorch to run them under the hood.
+Even if you didn’t import torch directly, it’s required to run the model.
+- If you skip torch, your model will throw errors or refuse to load.
+
+4. pandas==2.2.2
+ Why?
+You use pandas to store past predictions, create dataframes, and export logs to CSV:
+df = pd.DataFrame(st.session_state.log)
+df.to_csv("log.csv", index=False)
+- Without pandas, log download and history won't work.
+
+5. scikit-learn==1.4.2
+Why?
+Required internally by transformers for the classification pipeline.
+You’re using a zero-shot classifier, which internally depends on some scikit-learn functionalities.
+You may not be using sklearn directly, but it’s still a mandatory dependency for text classification tasks.
+- If this is missing, transformers may raise errors during model predictions.
+
