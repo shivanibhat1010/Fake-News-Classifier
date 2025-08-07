@@ -37,13 +37,7 @@
 
 ## 💻 Installation Guide
 1.Install dependencies:
-pip install -r requirements.txt
-[streamlit
-transformers
-torch
-pandas
-scikit-learn
-email-validator]
+pip install streamlit transformers torch pandas scikit-learn email-validator
 
 2.Run the app:
 streamlit run app.py
