@@ -1,5 +1,5 @@
 # Fake-News-Classifier
-#  TruthLens AI - Fake News Classifier
+#  And You Believed That? - Fake News Classifier
 
 ![Streamlit](https://img.shields.io/badge/streamlit-v1.0-brightgreen?style=flat-square)
 ![Transformers](https://img.shields.io/badge/huggingface-transformers-blue?style=flat-square)
