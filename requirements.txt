@@ -1,3 +1,11 @@
+Requirements
+
+streamlit==1.30.0
+transformers==4.40.0
+torch==2.2.0
+pandas==2.2.2
+scikit-learn==1.4.2
+
 1. streamlit==1.30.0
 Why?
 This is the framework you used to build the app.
@@ -33,10 +41,4 @@ Required internally by transformers for the classification pipeline.
 You’re using a zero-shot classifier, which internally depends on some scikit-learn functionalities.
 You may not be using sklearn directly, but it’s still a mandatory dependency for text classification tasks.
 - If this is missing, transformers may raise errors during model predictions.
-
-streamlit==1.30.0
-transformers==4.40.0
-torch==2.2.0
-pandas==2.2.2
-scikit-learn==1.4.2
 
