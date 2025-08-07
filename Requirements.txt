@@ -5,7 +5,7 @@ It handles everything in your UI: text input, buttons, sidebar, file upload, and
 Functions used: st.text_area(), st.button(), st.file_uploader(), st.sidebar, st.session_state, etc.
 - Without Streamlit, your app won’t run at all.
 
-2. transformers==4.40.0
+2. transformers==4.40.0 
 Why?
 Comes from Hugging Face – gives you the pipeline() function.
 You used it to load the zero-shot-classification model:
