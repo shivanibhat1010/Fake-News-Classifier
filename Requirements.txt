@@ -34,3 +34,9 @@ You’re using a zero-shot classifier, which internally depends on some scikit-l
 You may not be using sklearn directly, but it’s still a mandatory dependency for text classification tasks.
 - If this is missing, transformers may raise errors during model predictions.
 
+streamlit==1.30.0
+transformers==4.40.0
+torch==2.2.0
+pandas==2.2.2
+scikit-learn==1.4.2
+
