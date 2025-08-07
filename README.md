@@ -40,4 +40,4 @@
 pip install streamlit transformers torch pandas scikit-learn email-validator
 
 2.Run the app:
-streamlit run app.py
+streamlit run mytool.py
