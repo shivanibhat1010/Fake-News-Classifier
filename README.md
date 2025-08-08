@@ -44,5 +44,5 @@ streamlit run mytool.py
 
 ## 🚀 Live Demo
 [Click here to open the app]
-(https://your-app-link.com)
+(https://fake-news-classifier-8emq42hmafkvzdxakxehwn.streamlit.app/
 
