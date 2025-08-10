@@ -1,4 +1,4 @@
 streamlit
 gunicorn
-transformers==4.31.0
+transformers
 torch
