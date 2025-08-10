@@ -42,7 +42,4 @@ pip install streamlit transformers torch pandas scikit-learn email-validator
 2.Run the app:
 streamlit run mytool.py
 
-## 🚀 Live Demo
-[Click here to open the app]
-(https://fake-news-classifier-8emq42hmafkvzdxakxehwn.streamlit.app/
 
